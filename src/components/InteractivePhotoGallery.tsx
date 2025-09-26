@@ -18,37 +18,37 @@ export const InteractivePhotoGallery: React.FC = () => {
   const photos: Photo[] = [
     {
       id: 1,
-      imageUrl: "/images/ayang1.jpeg",
+      imageUrl: `${import.meta.env.BASE_URL}images/ayang1.jpeg`,
       category: "Portrait",
       date: "2024"
     },
     {
       id: 2,
-      imageUrl: "/images/ayang2.jpeg",
+      imageUrl: `${import.meta.env.BASE_URL}images/ayang2.jpeg`,
       category: "Close-up",
       date: "2024"
     },
     {
       id: 3,
-      imageUrl: "/images/ayang3.jpeg",
+      imageUrl: `${import.meta.env.BASE_URL}images/ayang3.jpeg`,
       category: "Candid",
       date: "2024"
     },
     {
       id: 4,
-      imageUrl: "/images/ayang5.jpeg",
-      category: "Fashion",
-      date: "2024"
-    },
-    {
-      id: 5,
-      imageUrl: "/images/ayang4.jpeg",
+      imageUrl: `${import.meta.env.BASE_URL}images/ayang4.jpeg`,
       category: "Natural",
       date: "2024"
     },
     {
+      id: 5,
+      imageUrl: `${import.meta.env.BASE_URL}images/ayang5.jpeg`,
+      category: "Fashion",
+      date: "2024"
+    },
+    {
       id: 6,
-      imageUrl: "/images/ayang6.jpeg",
+      imageUrl: `${import.meta.env.BASE_URL}images/ayang6.jpeg`,
       category: "Glamour",
       date: "2024"
     }
